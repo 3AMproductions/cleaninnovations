@@ -1,0 +1,255 @@
+/*********************************** body ***************************************/
+
+*{margin:0;padding:0;}
+
+html {
+	/* http://www.splintered.co.uk/experiments/49/ */
+	min-height: 100%;
+	margin-bottom: 1px;
+  color: #555555;
+  background: #FFFFFF url(images/background.gif) repeat-x;
+}
+
+body {
+	position: relative;
+	text-align: left;
+	font-size: 81%;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Century Gothic", sans-serif;
+}
+
+#container {
+	position: relative;
+  width: 760px;
+	margin: 50px auto;
+}
+
+
+/********************************* top elements *********************************/
+
+#logo p {
+  color: #2BAC00;
+  background: #FFFFFF;
+  font-family: "Verdana", sans-serif;
+  width: 385px;
+  font-size: .8em;
+  font-weight: bold;
+  float: right;
+  margin: 2px 0px 0px 0px;
+}
+
+#logo p.two {
+  text-align: right;
+  font-size: 1.4em;
+  margin: 8px 10px 0px 0px;
+  width: 380px;
+}
+
+#logo a img {
+  border: none;
+}
+
+#header {
+	background: url(images/header.gif) bottom left no-repeat;
+  border: 2px solid #2BAC00;
+  margin: 5px 0px 20px 0px;
+  padding: 0px;
+  height: 200px;
+}
+
+#header p {
+  display: none;
+}
+
+#nav {
+	list-style: none;
+  float: left;
+	display: block;
+  padding: 15px 0px;
+  width: 254px;
+  background: #2BAC00 url(images/nav.gif) 0px 0px no-repeat;
+}
+
+#nav li {
+	display: block;
+  width: 230px;
+  padding: 7px 0px;
+  margin: 0px 0px 0px 10px;
+  border-bottom: 1px solid #72A062;
+  border-top: 1px solid #91BF81;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+#nav li.first {
+  border-top: none;
+}
+
+#nav li.last {
+  border-bottom: none;
+}
+
+
+/******************************** content sections ****************************/
+
+#content {
+	position: relative;
+	padding: 0px;
+  margin: 0px 0px 0px 300px;
+	width: 455px;
+}
+
+#content p {
+	text-indent: 10px;
+  text-align: justify;
+  font-size: 1.1em;
+  line-height: 2.0em;
+  margin: 0px 15px 5px 5px;
+}
+
+#content ul {
+  margin: 0px 0px 0px 40px;
+}
+
+#content ul li {
+  /*border: 1px solid #2BAC00;
+  background: #CEEFBD;*/
+  padding: 6px;
+  margin: 2px 0px;
+}
+
+span.clean {
+  color: #2BAC00;
+}
+
+/********************************* links ********************************/
+
+ul#nav a {
+	text-decoration: none;
+	color: #FFFFFF;
+  /*background: #2BAC00;*/
+  display: block;
+  padding: 0px 0px 0px 17px;
+}
+
+ul#nav li a:hover, ul#nav li a:focus, ul#nav li a.location {
+  background: url(images/arrow.gif) 5px 5px no-repeat;
+  color: #DBF1D4;
+}
+
+#content a {
+  text-decoration: none;
+  border-bottom: 1px solid #BFBFBF;
+  border-bottom: 1px solid #2BAC00;
+  padding: 0px 2px;
+	background: #FFFFFF;
+  color: #2BAC00;
+  color: #555555;
+}
+
+#content a:hover, #content a:focus {
+  background: #2BAC00;
+  color: #FFFFFF;
+}
+
+#bottom a {
+	text-decoration: none;
+  color: #999999;
+  background: #FFFFFF;
+}
+
+#bottom a:hover, #bottom a:focus {
+  color: #2BAC00;
+  background: #FFFFFF;
+}
+
+
+/******************************** content sections ****************************/
+
+.left {
+	float: left;
+}
+
+#bottom {
+	color: #2BAC00;
+  background: #FFFFFF;
+	text-align: right;
+  font-size: .8em;
+  clear: both;
+  padding: 15px 0px 0px 0px;
+}
+
+
+
+
+/************************** header typestyles ***************************/
+
+h1
+{
+	position: relative;
+  color: #2BAC00;
+  background: #FFFFFF;
+	text-align: left;
+	font-size: 2em;
+  line-height: 1.5em;
+	font-weight: normal;
+	font-family: "Arial Black", "Lucida Sans Unicode", "Arial Black", "Trebuchet MS", "Helvetica", "Century Gothic", sans-serif;
+  margin: -50px 0px 0px 450px;
+}
+
+h2
+{
+  color: #2BAC00;
+  background: #FFFFFF;
+  margin: 0px 0px 6px 0px;
+  padding: 0px 0px 6px 5px;
+	text-decoration: none;	
+	text-align: left;
+	font-size: 2.2em;
+	font-weight: normal;
+	font-family: "Trebuchet MS", "Tahoma", "Agency FB", "Helvetica", "Century Gothic", "Lucida Sans Unicode", sans-serif;
+  border-bottom: 1px solid #BFBFBF;
+}
+
+
+/********************************* form ********************************/
+
+form{
+	/* so that submit button is centered */
+  /*text-align: center;*/
+  width: 400px;
+  margin: 0px auto;
+}
+
+p.contact {
+  padding: 0px 0px 20px 0px;
+}
+
+fieldset {
+	border: none;
+  width: 100%;
+	padding: 0px 0px 20px 0px;
+  margin: 0px auto;
+}
+
+.clear { margin: 10px 0px; }
+
+fieldset legend {
+	font-size: 18px;
+  text-align: right;
+  margin: 0px 0px 6px 0px;
+}
+
+fieldset label {
+	text-align: left;
+  display: block;
+}
+
+fieldset input, fieldset textarea {
+  width: 100%;
+  display: block;
+  clear: both;
+}
+
+#submit {
+	width: 80px;
+}
